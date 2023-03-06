@@ -14,6 +14,8 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    quotes: ["off","single","double"]
+    quotes: ["off","single","double"],
+    "comma-dangle":["off"],
+    "comma-spacing":["off"],
   }
 }
