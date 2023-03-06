@@ -13,5 +13,7 @@ module.exports = {
     "jest"
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    quotes: ["off","single","double"]
+  }
 }
