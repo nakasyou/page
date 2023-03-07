@@ -32,5 +32,11 @@
     "node_modules",
     ".nuxt",
     "dist"
-  ]
+  ],
+  "vueCompilerOptions":{
+    "extensions": [
+      ".vue"
+    ],
+    "target": 2.7
+  }
 }
