@@ -6,7 +6,7 @@
 
     <Head />
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Liberlunaのページてす。">
+    <meta name="description" content="We are Liberluna!">
     <meta name="robots" content="index, follow">
     <title>Liberluna - Official</title>
   </head>
