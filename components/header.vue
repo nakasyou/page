@@ -1,103 +1,18 @@
 <template>
-    <header>
-        <style>
-    :root {
-      --header-height:2.5em;
-    }
-    #header-main{
-        width:100%;
-        height:var(--header-height);
-        position: fixed;
-        top:0;
-        left:0;
-        background-color: rgb(192, 192, 192);
-        z-index: 100;
-    }
-    #header-main #homelink img{
-      height:var(--header-height);
-    }
-    #header-main #change-dark{
-      background-color:transparent;
-      border:none;
-    }
-    #header-main #change-dark img{
-      height:2.3rem;
-    }
-  
-</style>
-<div id='header-main'>
-    <a href="https://liberluna.github.io/" style="color:#000" id="homelink">
-      <img src="img/liberluna.svg" alt="Liberluna">
-    </a>
-    <button id="change-dark">
-      <img src="img/darkmode.svg" id="dark" hidden>
-      <img src="img/lightmode.svg" id="light" hidden>
-    </button>
-</div>
-<script>
-  (()=>{
-    'use strict';
-    const isLight=()=>!window.matchMedia('(prefers-color-scheme: dark)').matches;
-    function changeMode(){
-      document.querySelector("#header-main #change-dark #dark").hidden=localStorage.getItem("light")==="true";
-      document.querySelector("#header-main #change-dark #light").hidden=localStorage.getItem("light")!=="true";
-      const mode=localStorage.getItem("light")!=="true";
-      document.querySelectorAll("*").forEach(e=>{
-        e.dataset.dark=mode.toString();;
-      })
-    }
-    document.querySelector("#header-main #change-dark").addEventListener('click',e=>{
-      localStorage.setItem("light",localStorage.getItem("light")!=="true");
-      changeMode();
-    })
-    function getLightChange(){
-      if(localStorage.getItem("lastLight")===null){
-        //init
-        localStorage.setItem("lastLight",isLight());
-      }
-      if(localStorage.getItem("light")===null){
-        //init light mode
-        localStorage.setItem("light",isLight());
-        changeMode();
-      }
-      if(localStorage.getItem("lastLight")!==isLight().toString()){
-        // catch change
-        localStorage.setItem("lastLight",isLight());
-        localStorage.setItem("light",isLight());
-        changeMode();
-      }
-      setTimeout(getLightChange,100);
-    }
-    changeMode();
-    setTimeout(getLightChange,100);
-  })()
-</script>
-<script>
-window.orderChars=(elem)=>{
-  let only = false;
-  elem.dataset.targetText=elem.textContent;
-  function nextChar(){
-    if(elem.dataset.targetText===elem.textContent)return;
-    const updateSpeed=1000/elem.dataset.targetText.length;
-    let updateChar=1;
-    elem.textContent+=elem.dataset.targetText.slice(elem.textContent.length,elem.textContent.length+updateChar);
-    
-    setTimeout(nextChar,updateSpeed);
-  }
-  window.addEventListener('scroll',()=>{
-    if(elem.getBoundingClientRect().top<window.innerHeight && !only){
-      only = true;
-      elem.textContent="";
-      setTimeout(nextChar,20);
-    }
-  });
-}
-</script>
-
-    </header>
+  <header>
+    <div id='header-main'>
+      <a href="https://liberluna.github.io/" style="color:#000" id="homelink">
+        <img src="img/liberluna.svg" alt="Liberluna">
+      </a>
+      <button id="change-dark">
+        <img src="@/assets/google-material/dark_mode.svg" id="dark" hidden>
+        <img src="@/assets/google-material/light_mode.svg" id="light" hidden>
+      </button>
+    </div>
+  </header>
 </template>
 <script>
 export default {
-    name:"Header"
+  name: "Header"
 }
 </script>
