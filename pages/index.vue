@@ -6,20 +6,20 @@
         
       </head>
       <body>
-        <LiberlunaHeader/>
+      <p>a</p>
       </body>
     </html>
   </client-only>
 </template>
 
 <script lang="ts">
-import LiberlunaHeader from '~/components/liberluna_header.vue'
+//import LiberlunaHeader from '~/components/liberluna_header.vue'
 import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    LiberlunaHeader
+    //LiberlunaHeader
   },
 })
 </script>
