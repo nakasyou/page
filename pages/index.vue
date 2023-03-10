@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts">
-import LiberlunaHeader from '~/components/liberluna_header.vue'
 import Vue from 'vue'
+import LiberlunaHeader from '~/components/liberluna_header.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
@@ -16,9 +16,9 @@ export default Vue.extend({
   head:{
     title: "Liberluna",
     meta: [
-      {charset: "utf-8"},
-      {hid: 'description', name: 'description', content: 'Liberluna\'s page.'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+      { charset: "utf-8" },
+      { hid: 'description', name: 'description', content: 'Liberluna\'s page.' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ]
   }
 })
