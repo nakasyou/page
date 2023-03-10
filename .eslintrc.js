@@ -17,5 +17,6 @@ module.exports = {
     quotes: ["off","single","double"],
     "comma-dangle": ["off","never"],
     "comma-spacing": ["off"],
+    "eol-last": ["off"],
   }
 }
