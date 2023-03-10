@@ -13,7 +13,7 @@ export default Vue.extend({
   components: {
     LiberlunaHeader
   },
-  head:{
+  head: {
     title: "Liberluna",
     meta: [
       { charset: "utf-8" },
