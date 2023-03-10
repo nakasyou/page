@@ -1,15 +1,7 @@
-
 <template>
-  <client-only>
-    <html>
-      <head>
-        
-      </head>
-      <body>
-        <LiberlunaHeader/>
-      </body>
-    </html>
-  </client-only>
+  <div>
+    <LiberlunaHeader/>
+  </div>
 </template>
 
 <script lang="ts">
@@ -21,5 +13,12 @@ export default Vue.extend({
   components: {
     LiberlunaHeader
   },
+  head:{
+    title: "Liberluna",
+    meta: [
+      {charset: "utf-8"},
+      {hid: 'description', name: 'description', content: 'Liberluna\'s page.'}
+    ]
+  }
 })
 </script>
