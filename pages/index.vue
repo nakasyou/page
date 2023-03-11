@@ -1,12 +1,14 @@
 <template>
   <div>
     <LiberlunaHeader/>
+    <LiberlunaFooter/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import LiberlunaHeader from '~/components/liberluna_header.vue'
+import LiberlunaFooter from '~/components/liberluna_footer.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
