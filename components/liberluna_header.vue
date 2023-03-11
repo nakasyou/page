@@ -13,9 +13,13 @@
 </template>
 <style>
   .header-main{
-    height:10px;
+    height:15px;
     width:100%;
     background-color:#93ff93;
+  }
+  .liberluna-logo-link-header{
+    height:10px;
+    max-width:50%;
   }
 </style>
 <script>
