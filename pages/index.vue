@@ -13,7 +13,8 @@ import LiberlunaFooter from '~/components/liberluna_footer.vue'
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    LiberlunaHeader
+    LiberlunaHeader,
+    LiberlunaFooter
   },
   head: {
     title: "Liberluna",
