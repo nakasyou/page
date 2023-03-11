@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div id='header-main'>
+    <div class='header-main'>
       <a href="https://liberluna.github.io/">
         <img src="@/assets/liberluna/liberluna-logo.svg" alt="Liberluna" class="liberluna-logo-link-header">
       </a>
@@ -11,7 +11,13 @@
     </div>
   </header>
 </template>
-
+<style>
+  .header-main{
+    height:10px;
+    width:100%;
+    background-color:#93ff93;
+  }
+</style>
 <script>
 export default {
   name: "LiberlunaHeader"
