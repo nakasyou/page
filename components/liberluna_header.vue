@@ -13,12 +13,13 @@
 </template>
 <style>
   .header-main{
-    height:15px;
+    height:30px;
     width:100%;
     background-color:#93ff93;
+    padding: 0px 5px;
   }
   .liberluna-logo-link-header{
-    height:10px;
+    height:90%;
     max-width:50%;
   }
 </style>

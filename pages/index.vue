@@ -4,7 +4,16 @@
     <LiberlunaFooter/>
   </div>
 </template>
-
+<style>
+/* import Noto Sans JP */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  /* Noto Sans JP */
+  font-family: 'Noto Sans JP', sans-serif;
+}
+</style>
 <script lang="ts">
 import Vue from 'vue'
 import LiberlunaHeader from '~/components/liberluna_header.vue'
