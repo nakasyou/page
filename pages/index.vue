@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="page">
     <LiberlunaHeader/>
+    <MainTitle/>
     <LiberlunaFooter/>
   </div>
 </template>
@@ -13,17 +14,23 @@ body{
   /* Noto Sans JP */
   font-family: 'Noto Sans JP', sans-serif;
 }
+.page{
+  width:100%;
+  height:100vh;
+}
 </style>
 <script lang="ts">
 import Vue from 'vue'
-import LiberlunaHeader from '~/components/liberluna_header.vue'
-import LiberlunaFooter from '~/components/liberluna_footer.vue'
+import LiberlunaHeader from '~/components/liberluna_header.vue';
+import LiberlunaFooter from '~/components/liberluna_footer.vue';
+import MainTitle from '~/components/index/main_title.vue';
 
 export default Vue.extend({
   name: 'IndexPage',
   components: {
     LiberlunaHeader,
-    LiberlunaFooter
+    LiberlunaFooter,
+    MainTitle,
   },
   head: {
     title: "Liberluna",
