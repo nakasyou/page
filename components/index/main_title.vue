@@ -18,6 +18,6 @@
 </style>
 <script>
 export default {
-  name:"MainTitle"
+  name: "MainTitle"
 }
 </script>
