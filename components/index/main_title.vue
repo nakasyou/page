@@ -24,12 +24,12 @@
 <script>
 export default {
   name: "MainTitle",
-  data(){
+  data() {
     return {
       scrollY: 0
     }
   },
-  mounted(){
+  mounted() {
     window.addEventListener('scroll', this.handleScroll)
   },
   methods: {
