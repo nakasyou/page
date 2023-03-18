@@ -19,10 +19,10 @@ module.exports = {
     "comma-dangle": ["off","never"],
     "comma-spacing": ["off"],
     "eol-last": ["off"],
-    "space-before-function-paren":["error", {
-      "anonymous": "always",
-      "named": "never",
-      "asyncArrow": "always"
+    "space-before-function-paren": ["error", {
+      anonymous: "always",
+      named: "never",
+      asyncArrow: "always",
     }],
   }
 }
