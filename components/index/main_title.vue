@@ -23,7 +23,7 @@
 .scroll-to-down{
   top:70%;
   left:50%;
-  transform: translateY(-50%);
+  transform: translateX(-50%);
 }
 </style>
 <script>
