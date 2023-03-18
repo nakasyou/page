@@ -21,9 +21,9 @@ body{
 </style>
 <script lang="ts">
 import Vue from 'vue'
-import LiberlunaHeader from '~/components/liberluna_header.vue';
-import LiberlunaFooter from '~/components/liberluna_footer.vue';
-import MainTitle from '~/components/index/main_title.vue';
+import LiberlunaHeader from '~/components/liberluna_header.vue'
+import LiberlunaFooter from '~/components/liberluna_footer.vue'
+import MainTitle from '~/components/index/main_title.vue'
 
 export default Vue.extend({
   name: 'IndexPage',

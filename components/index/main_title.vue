@@ -1,7 +1,7 @@
 <template>
   <div class="main-title">
     <img class="liberluna-title-image" src="@/assets/liberluna/liberluna-logo.svg"/>
-  </div> 
+  </div>
 </template>
 <style>
 .main-title{
