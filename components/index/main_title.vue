@@ -14,11 +14,16 @@
   position:relative;
 }
 .liberluna-title-image{
-  width:90%;
+  width:60%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+.scroll-to-down{
+  top:70%;
+  left:50%;
+  transform: translateY(-50%) translateX(-30%);
 }
 </style>
 <script>
