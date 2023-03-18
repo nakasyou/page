@@ -2,7 +2,8 @@
   <div class="main-title">
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
-    
+    <img class="scroll-to-down"
+      src="@/assets/icon/scroll.svg"/>
   </div>
 </template>
 <style>
