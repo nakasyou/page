@@ -2,19 +2,22 @@
   <div class="main-title">
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
+    
   </div>
 </template>
 <style>
 .main-title{
   width:100%;
   height:100%;
-  background-color: aliceblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color:aliceblue;
+  position:relative;
 }
 .liberluna-title-image{
   width:90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 </style>
 <script>
