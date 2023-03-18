@@ -50,7 +50,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      scrollY:0
+      scrollY: 0
     }
   },
   mounted() {
@@ -58,7 +58,7 @@ export default Vue.extend({
   },
   methods: {
     handleScroll() {
-      this.scrollY=window.scrollY
+      this.scrollY = window.scrollY
     }
   }
 })
