@@ -1,8 +1,7 @@
 <template>
   <div class="main-title">
     <img class="liberluna-title-image"
-      src="@/assets/liberluna/liberluna-logo.svg"
-      :class="{'hidden':scrollY>10}"/>
+      src="@/assets/liberluna/liberluna-logo.svg"/>
   </div>
 </template>
 <style>
@@ -16,9 +15,6 @@
 }
 .liberluna-title-image{
   width:90%;
-}
-.hidden{
-  visibility: hidden;
 }
 </style>
 <script>

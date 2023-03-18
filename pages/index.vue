@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <LiberlunaHeader/>
+    <LiberlunaHeader :class="{'hidden':scrollY>10}"/>
     <MainTitle/>
     <LiberlunaFooter/>
   </div>
@@ -17,6 +17,9 @@ body{
 .page{
   width:100%;
   height:100vh;
+}
+.hidden{
+  visibility:hidden;
 }
 </style>
 <script lang="ts">
@@ -39,6 +42,19 @@ export default Vue.extend({
       { hid: 'description', name: 'description', content: 'Liberluna\'s page.' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ]
+  },
+  data() {
+    return {
+      scrollY:0
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll',this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      this.scrollY=window.scrollY
+    }
   }
 })
 </script>
