@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <LiberlunaHeader :class="{'hidden':scrollY>10}"/>
+    <LiberlunaHeader :class="{'hidden':scrollY<10}"/>
     <MainTitle/>
     <LiberlunaFooter/>
   </div>
