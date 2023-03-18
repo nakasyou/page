@@ -1,6 +1,6 @@
 <template>
   <div class="main-title">
-    a
+    <img class="liberluna-title-image" src="@/assets/liberluna/liberluna-logo.svg"/>
   </div> 
 </template>
 <style>
@@ -8,6 +8,12 @@
   width:100%;
   height:100%;
   background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liberluna-title-image{
+  width:90%;
 }
 </style>
 <script>
