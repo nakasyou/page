@@ -3,7 +3,7 @@
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
     <img class="scroll-to-down"
-      src="@/assets/icon/scroll.svg"/>
+      src="@/assets/icons/scroll.svg"/>
   </div>
 </template>
 <style>
