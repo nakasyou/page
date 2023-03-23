@@ -2,6 +2,7 @@
   <div class="page">
     <LiberlunaHeader :class="{'hidden':scrollY<10}" class="liberluna-header-index"/>
     <MainTitle/>
+    <MainDesc/>
     <LiberlunaFooter/>
   </div>
 </template>
@@ -32,6 +33,7 @@ import Vue from 'vue'
 import LiberlunaHeader from '~/components/liberluna_header.vue'
 import LiberlunaFooter from '~/components/liberluna_footer.vue'
 import MainTitle from '~/components/index/main_title.vue'
+import MainDesc from '~/components/index/main_desc.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
@@ -39,6 +41,7 @@ export default Vue.extend({
     LiberlunaHeader,
     LiberlunaFooter,
     MainTitle,
+    MainDesc,
   },
   head: {
     title: "Liberluna",
