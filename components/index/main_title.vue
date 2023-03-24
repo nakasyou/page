@@ -42,7 +42,7 @@ export default {
       window.scrollTo({
         top: this.$refs.mainTitle.clientHeight,
         behavior: 'smooth'
-      });
+      })
     }
   }
 }
