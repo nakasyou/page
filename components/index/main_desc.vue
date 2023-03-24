@@ -7,6 +7,8 @@
         <div>
           Liberlunaは、インターネット上で集まった、ハッカー/プログラマ集団です。
           Matrixプロトコルを使用している、安全なチャットである<a href="https://element.io">Element</a>を中心に活動してます。
+          また、LINE Open-chatでも活動しています。
+          GitHubを主に使っています。
         </div>
       </div>
     </div>
