@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <LiberlunaHeader :class="{'hidden':scrollY<10}" class="liberluna-header-index"/>
+    <LiberlunaHeader :class="{'hidden':scrollY>10}" class="liberluna-header-index"/>
     <MainTitle/>
     <MainDesc/>
     <LiberlunaFooter/>
@@ -53,7 +53,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      scrollY:0
+      scrollY: 0
     }
   },
   mounted() {
@@ -61,7 +61,7 @@ export default Vue.extend({
   },
   methods: {
     handleScroll() {
-      this.scrollY=window.scrollY
+      this.scrollY = window.scrollY
     }
   }
 })
