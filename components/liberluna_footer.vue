@@ -10,7 +10,6 @@
     width:100%
   }
   footer{
-    position: relative;
     top:0px;
     left:0px;
   }

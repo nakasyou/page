@@ -14,24 +14,17 @@
 </template>
 <style>
 .about{
-  position: relative;
-  top:0px;
-  left:0px;
+
 }
 .what-big-title{
   font-size: 10em;
   font-weight: 700;
   color: green;
-  top: 0px;
-  left: 0px;
   position: absolute;
   vertical-align: top;
   opacity: 0.5;
 }
 .descs{
-  top: 0px;
-  left: 0px;
-  position: absolute;
   display: flex;
 }
 </style>
