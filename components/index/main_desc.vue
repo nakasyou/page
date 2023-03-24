@@ -33,19 +33,10 @@
 <script lang="ts">
 export default {
   name: "MainDesc",
-  methods: {
-    resize() {
-      this.width=window.innerWidth
-    }
-  },
-  mounted() {
-    window.addEventListener("resize",this.resize)
-    this.width=window.innerWidth
-  },
+  methods: {},
+  mounted() {},
   data() {
-    return {
-      width: 0
-    }
+    return {}
   }
 }
 </script>
