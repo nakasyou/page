@@ -1,30 +1,55 @@
 <template>
   <div class="main-desc">
     <div class="about">
-      <div class="what-big-title">What</div>
       <div class="descs">
-        <h1>What is Liberluna?</h1>
-        <div>
+        <div class="title">
+          <h2>What is Liberluna?</h2>
+        </div>
+        <div class="detail">
           Liberlunaは、インターネット上で集まった、ハッカー/プログラマ集団です。
-          Matrixプロトコルを使用している、安全なチャットである<a href="https://element.io">Element</a>を中心に活動してます。
-          また、LINE Open-chatでも活動しています。
+          Matrixプロトコルを使用している、安全なチャットである
+          <a href="https://element.io">Element</a>
+          を中心に活動してます。
+          また、<a href="https://line.me/ti/g2/beNFT8zr5MEL_Um5xmSBZthZwfIuZcQu8-bYMA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">
+            LINE Open-chat
+          </a>でも活動しています。
           GitHubを主に使っています。
+        </div>
+      </div>
+      <div class="descs">
+        <div class="title">
+          <h2>What does "Liberluna" do?</h2>
+        </div>
+        <div class="detail">
+          Liberlunaは、ITに関するスキルを活かして、様々なことに取り組んでいます。
+          <div><button>例えば、こんな事</button></div>
+          気になる方は、LINEオープンチャットまでお越しください。歓迎します。
+          また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
         </div>
       </div>
     </div>
   </div>
 </template>
 <style>
-.about{
-
+h2{
+  font-size: 1.5em;
 }
-.what-big-title{
-  font-size: 10em;
-  font-weight: 700;
-  color: green;
-  position: absolute;
-  vertical-align: top;
-  opacity: 0.5;
+.title{
+  width: calc(30% - 2px)
+}
+.detail{
+  width: calc(70% - 2px);
+  margin-top: 3em;
+}
+@media screen and (max-width: 570px) {
+  .title{
+    width: 100%
+  }
+  .detail{
+    width: 100%;
+    position: static;
+    margin-top: 0px;
+  }
 }
 .descs{
   display: flex;
