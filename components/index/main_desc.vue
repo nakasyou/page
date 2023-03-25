@@ -24,7 +24,7 @@
           Liberlunaは、ITに関するスキルを活かして、様々なことに取り組んでいます。
           <div><b-button
               variant="outline-primary"
-            >例えば、こんな事</b-button></div>
+            >例えば、こんな事<span class="material-symbols-outlined">open_in_new</span></b-button></div>
           気になる方は、LINEオープンチャットまでお越しください。歓迎します。
           また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
         </div>
@@ -33,6 +33,11 @@
   </div>
 </template>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+.material-symbols-outlined{
+  vertical-align: sub;
+  font-size: 1em;
+}
 h2{
   font-size: 1.5em;
 }
