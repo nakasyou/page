@@ -38,7 +38,7 @@
 export default {
   name: "MainTitle",
   methods: {
-    scrollToDown(){
+    scrollToDown() {
       window.scrollTo({
         top: this.$refs.mainTitle.clientHeight,
         behavior: 'smooth'
