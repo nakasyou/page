@@ -22,7 +22,9 @@
         </div>
         <div class="detail">
           Liberlunaは、ITに関するスキルを活かして、様々なことに取り組んでいます。
-          <div><button>例えば、こんな事</button></div>
+          <div><b-button
+              variant="outline-primary"
+            >例えば、こんな事</b-button></div>
           気になる方は、LINEオープンチャットまでお越しください。歓迎します。
           また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
         </div>
