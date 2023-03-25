@@ -18,7 +18,7 @@ body{
 .page{
   width:100%;
   height:100vh;
-  oveflow-x: hidden;
+  overflow-x: hidden;
   position:relative;
 }
 .hidden{
