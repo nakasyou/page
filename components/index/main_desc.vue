@@ -28,6 +28,7 @@
 }
 .descs{
   display: flex;
+  flex-wrap: wrap;
 }
 </style>
 <script lang="ts">
