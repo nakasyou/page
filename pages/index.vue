@@ -10,6 +10,11 @@
 <style>
 /* import Noto Sans JP */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+.material-symbols-outlined{
+  vertical-align: sub;
+  font-size: 1em;
+}
 body{
   margin: 0px;
   padding: 0px;
