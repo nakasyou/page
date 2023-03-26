@@ -2,9 +2,10 @@
   <div class="main-title" ref="mainTitle">
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
-    <img class="scroll-to-down"
-      src="@/assets/icons/scroll.svg"
-      @click="scrollToDown"/>
+    <button @click="scrollToDown">
+      <img class="scroll-to-down"
+        src="@/assets/icons/scroll.svg"/>
+    </button>
   </div>
 </template>
 <style>
@@ -39,10 +40,10 @@ export default {
   name: "MainTitle",
   methods: {
     scrollToDown() {
-      window.scrollTo({
-        top: this.$refs.mainTitle.clientHeight,
-        behavior: 'smooth'
-      })
+      document.getElementById('main-title-end').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
     }
   }
 }
