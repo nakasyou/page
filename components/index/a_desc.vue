@@ -9,7 +9,9 @@
   </div>
 </template>
 <script lang="ts">
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   name: "ADesc",
   props: {
     title: {
@@ -40,7 +42,7 @@ export default {
       this.viewable = top >= 0 && top <= window.innerHeight
     }
   }
-}
+})
 </script>
 <style>
 .slidein {
