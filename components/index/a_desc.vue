@@ -31,9 +31,10 @@ export default {
   },
   methods: {
     scroll() {
-      if(this.viewable)
+      if (this.viewable){
         return
-      const {top} = this.$el.getBoundingClientRect()
+      }
+      const { top } = this.$el.getBoundingClientRect()
       this.viewable = top >= 0 && top <= window.innerHeight
     }
   }
