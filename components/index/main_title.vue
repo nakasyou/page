@@ -2,10 +2,10 @@
   <div class="main-title" ref="mainTitle">
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
-    <button @click="scrollToDown">
+    <a @click="scrollToDown" class="scroll-to-down scroll-to-down-btn">
       <img class="scroll-to-down"
         src="@/assets/icons/scroll.svg"/>
-    </button>
+    </a>
   </div>
 </template>
 <style>
@@ -29,11 +29,7 @@
   top: 90%;
   left: 50%;
 }
-.scroll-to-down{
-  top:70%;
-  left:50%;
-  transform: translateX(-50%);
-}
+
 </style>
 <script>
 export default {
