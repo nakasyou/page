@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <LiberlunaHeader :class="{'hidden':scrollY>10}" class="liberluna-header-index"/>
+    <LiberlunaHeader :class="{'hidden':scrollY<10}" class="liberluna-header-index"/>
     <MainTitle/>
     <div id="main-title-end"></div>
     <MainDesc/>
@@ -24,7 +24,6 @@ body{
 .page{
   width:100%;
   height:100vh;
-  overflow-x: hidden;
   position:relative;
 }
 .hidden{
@@ -32,6 +31,7 @@ body{
 }
 .liberluna-header-index{
   position:fixed;
+  z-index: 1;
   top:0px;
   left:0px;
 }

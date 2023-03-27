@@ -1,42 +1,86 @@
 <template>
-  <div class="descs">
+  <div class="descs" :class="{ slidein: viewable }">
     <div class="title">
-      <h2>{{title}}</h2>
+      <h2>{{ title }}</h2>
     </div>
     <div class="detail">
-      <slot/>
+      <slot />
     </div>
   </div>
 </template>
 <script lang="ts">
 export default {
   name: "ADesc",
-  props: ["title"]
+  props: {
+    title: {
+      type: String,
+      default: "This is title",
+      required: true
+    }
+  },
+  data() {
+    return {
+      viewable: false,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.scroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.scroll);
+  },
+  methods: {
+    scroll() {
+      if(this.viewable) return
+      const {top} = this.$el.getBoundingClientRect()
+      this.viewable= top >= 0 && top <= window.innerHeight
+    }
+  }
 }
 </script>
 <style>
-h2{
+.slidein {
+  animation: slideIn 0.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(180px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h2 {
   font-size: 1.5em;
 }
-.title{
+
+.title {
   width: calc(30% - 2px)
 }
-.detail{
+
+.detail {
   width: calc(70% - 2px);
   margin-top: 3em;
 }
+
 @media screen and (max-width: 570px) {
-  .title{
+  .title {
     width: 100%
   }
-  .detail{
+
+  .detail {
     width: 100%;
     position: static;
     margin-top: 0px;
   }
 }
-.descs{
+
+.descs {
   display: flex;
   flex-wrap: wrap;
-}
-</style>
+}</style>
