@@ -19,13 +19,11 @@
         気になる方は、LINEオープンチャットまでお越しください。歓迎します。
         また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
     </ADesc>
-    <ADesc title="Links">
-      
-    </ADesc>
+    <ADesc title="Links"></ADesc>
   </div>
 </template>
 <script lang="ts">
-import ADesc from "./a_desc.vue";
+import ADesc from "./a_desc.vue"
 export default {
   name: "MainDesc",
   components: {
@@ -64,4 +62,3 @@ h2{
   flex-wrap: wrap;
 }
 </style>
-

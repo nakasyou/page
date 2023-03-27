@@ -39,7 +39,7 @@ export default {
       document.getElementById('main-title-end').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
-      });
+      })
     }
   }
 }

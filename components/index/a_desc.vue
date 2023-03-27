@@ -27,13 +27,14 @@ export default {
     window.addEventListener('scroll', this.scroll)
   },
   beforeDestroy() {
-    window.removeEventListener('scroll', this.scroll);
+    window.removeEventListener('scroll', this.scroll)
   },
   methods: {
     scroll() {
-      if(this.viewable) return
+      if(this.viewable)
+        return
       const {top} = this.$el.getBoundingClientRect()
-      this.viewable= top >= 0 && top <= window.innerHeight
+      this.viewable = top >= 0 && top <= window.innerHeight
     }
   }
 }
