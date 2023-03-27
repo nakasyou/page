@@ -18,7 +18,9 @@ export default {
       required: true
     }
   },
-  data() {
+  data():{
+    viewable: boolean,
+  } {
     return {
       viewable: false,
     }
@@ -30,7 +32,7 @@ export default {
     window.removeEventListener('scroll', this.scroll)
   },
   methods: {
-    scroll() {
+    scroll(): void {
       if (this.viewable){
         return
       }
