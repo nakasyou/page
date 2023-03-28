@@ -13,7 +13,7 @@ export type Profile = {
 }
 export type Members = Array<Profile>
 
-const members = ()=> [
+const members = () => [
   {
     name: "Pochi",
     names: {
