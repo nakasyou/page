@@ -34,7 +34,7 @@ module.exports = {
     "vue/multiline-html-element-content-newline": ["off"],
     "vue/html-self-closing": ["error", {
       html: {
-        void: "never",
+        void: "always",
         normal: "always",
         component: "always"
       },
