@@ -20,9 +20,7 @@ export default Vue.extend({
       required: true
     }
   },
-  data():{
-    viewable: boolean,
-  } {
+  data() {
     return {
       viewable: false,
     }
@@ -35,7 +33,7 @@ export default Vue.extend({
   },
   methods: {
     scroll(): void {
-      if (this.viewable){
+      if (this.viewable) {
         return
       }
       const { top } = this.$el.getBoundingClientRect()
