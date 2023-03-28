@@ -12,12 +12,12 @@
     </ADesc>
     <ADesc title="What does 'Liberluna' do?">
       Liberlunaは、ITに関するスキルを活かして、様々なことに取り組んでいます。
-        <div><b-button
-            variant="outline-primary"
-            href="./liberlunadoes"
-          >例えば、こんな事<span class="material-symbols-outlined">open_in_new</span></b-button></div>
-        気になる方は、LINEオープンチャットまでお越しください。歓迎します。
-        また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
+      <div><b-button
+        variant="outline-primary"
+        href="./liberlunadoes"
+      >例えば、こんな事<span class="material-symbols-outlined">open_in_new</span></b-button></div>
+      気になる方は、LINEオープンチャットまでお越しください。歓迎します。
+      また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
     </ADesc>
     <ADesc title="Links"></ADesc>
   </div>
