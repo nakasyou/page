@@ -31,5 +31,6 @@ module.exports = {
       alignAttributesVertically: true,
       ignores: []
     }],
+    "vue/multiline-html-element-content-newline": ["off"]
   }
 }
