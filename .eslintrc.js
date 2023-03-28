@@ -30,6 +30,6 @@ module.exports = {
       closeBracket": 0,
       alignAttributesVertically: true,
       ignores: []
-     }],
+    }],
   }
 }
