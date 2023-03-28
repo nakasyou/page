@@ -1,10 +1,14 @@
 <template>
   <div class="main-title" ref="mainTitle">
-    <img class="liberluna-title-image"
-      src="@/assets/liberluna/liberluna-logo.svg"/>
+    <img
+      class="liberluna-title-image"
+      src="@/assets/liberluna/liberluna-logo.svg"
+    />
     <span @click="scrollToDown" class="scroll-to-down scroll-to-down-btn">
-      <img class="scroll-to-down"
-        src="@/assets/icons/scroll.svg"/>
+      <img
+        class="scroll-to-down"
+        src="@/assets/icons/scroll.svg"
+      />
     </span>
   </div>
 </template>
