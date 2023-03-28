@@ -38,7 +38,7 @@ export default Vue.extend({
         return
       }
       const { top } = this.$el.getBoundingClientRect()
-      this.viewable = top > 0 && top+1 < window.innerHeight
+      this.viewable = top > 0 && top < window.innerHeight
     }
   }
 })
