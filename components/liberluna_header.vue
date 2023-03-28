@@ -11,6 +11,11 @@
     </div>
   </header>
 </template>
+<script>
+export default {
+  name: "LiberlunaHeader"
+}
+</script>
 <style>
   .header-main{
     height:30px;
@@ -23,8 +28,3 @@
     max-width:50%;
   }
 </style>
-<script>
-export default {
-  name: "LiberlunaHeader"
-}
-</script>
