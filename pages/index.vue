@@ -2,7 +2,7 @@
   <div class="page">
     <LiberlunaHeader :class="{'hidden':scrollY<10}" class="liberluna-header-index"/>
     <MainTitle/>
-    <div id="main-title-end"></div>
+    <div id="main-title-end"/>
     <MainDesc/>
     <LiberlunaFooter/>
   </div>
