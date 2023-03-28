@@ -24,6 +24,7 @@ module.exports = {
       named: "never",
       asyncArrow: "always",
     }],
+    "no-multi-spaces": ["error", { ignoreEOLComments: true }],
     "vue/html-indent": ["error", 2, {
       attribute: 1,
       baseIndent: 1,

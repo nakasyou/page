@@ -1,4 +1,7 @@
 <template>
+  <div>
+    <span>Mr. Nobita</span>
+  </div>
 </template>
 <script>
 import Vue from "vue"
