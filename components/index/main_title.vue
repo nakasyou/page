@@ -12,7 +12,20 @@
     </span>
   </div>
 </template>
-<style>
+<script>
+export default {
+  name: "MainTitle",
+  methods: {
+    scrollToDown() {
+      document.getElementById('main-title-end').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+}
+</script>
+<style scoped>
 .main-title{
   width:100%;
   height:100%;
@@ -33,18 +46,4 @@
   top: 90%;
   left: 50%;
 }
-
 </style>
-<script>
-export default {
-  name: "MainTitle",
-  methods: {
-    scrollToDown() {
-      document.getElementById('main-title-end').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
-    }
-  }
-}
-</script>
