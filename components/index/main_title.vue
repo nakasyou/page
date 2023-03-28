@@ -2,10 +2,10 @@
   <div class="main-title" ref="mainTitle">
     <img class="liberluna-title-image"
       src="@/assets/liberluna/liberluna-logo.svg"/>
-    <a @click="scrollToDown" class="scroll-to-down scroll-to-down-btn">
+    <span @click="scrollToDown" class="scroll-to-down scroll-to-down-btn">
       <img class="scroll-to-down"
         src="@/assets/icons/scroll.svg"/>
-    </a>
+    </span>
   </div>
 </template>
 <style>
