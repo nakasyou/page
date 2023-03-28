@@ -27,6 +27,7 @@ export default Vue.extend({
   },
   mounted() {
     window.addEventListener('scroll', this.scroll)
+    this.scroll()
   },
   beforeDestroy() {
     window.removeEventListener('scroll', this.scroll)
@@ -37,7 +38,7 @@ export default Vue.extend({
         return
       }
       const { top } = this.$el.getBoundingClientRect()
-      this.viewable = top >= 0 && top <= window.innerHeight
+      this.viewable = top > 0 && top+1 < window.innerHeight
     }
   }
 })
