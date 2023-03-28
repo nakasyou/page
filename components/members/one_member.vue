@@ -16,7 +16,7 @@
 </template>
 <script lang="ts">
 import Vue, { PropType } from "vue"
-import { type Profile } from "./members";
+import { type Profile } from "./members"
 
 export default Vue.extend({
   name: "OneMember",
