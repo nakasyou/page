@@ -2,5 +2,13 @@
     "[vue]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
+    },
+    "[javascript]": {
+        "editor.tabsize": 2,
+        "editor.insertSpaces": true
+    },
+    "[typescript]": {
+        "editor.tabsize": 2,
+        "editor.insertSpaces": true
     }
 }
