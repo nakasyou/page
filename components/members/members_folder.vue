@@ -1,6 +1,8 @@
 <template>
-  <h1>Members</h1>
-  <div>{{ JSON.stringify(membersList) }}</div>
+  <div>
+    <h1>Members</h1>
+    <div>{{ JSON.stringify(membersList) }}</div>
+  </div>
 </template>
 <script>
 import Vue from "vue"
