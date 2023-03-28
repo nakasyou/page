@@ -38,6 +38,11 @@ export default Vue.extend({
     MainTitle,
     MainDesc,
   },
+  data() {
+    return {
+      scrollY: 0
+    }
+  },
   head: {
     title: "Liberluna",
     meta: [
@@ -45,11 +50,6 @@ export default Vue.extend({
       { hid: 'description', name: 'description', content: 'Liberluna\'s page.' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ]
-  },
-  data() {
-    return {
-      scrollY: 0
-    }
   },
   mounted() {
     window.addEventListener('scroll',this.handleScroll)
