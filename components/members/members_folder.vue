@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="members-list" v-for="members in membersList" :key="members.name">
-      <OneMember :profile="members" />
+      <OneMember :profile="members"/>
     </div>
   </div>
 </template>
@@ -11,14 +11,14 @@ import membersList from "./members.ts"
 import OneMember from "./one_member.vue"
 export default Vue.extend({
   name: "MembersFolder",
+  components: {
+    OneMember,
+  },
   data() {
     return {
       membersList: membersList(),
     }
   },
-  components: {
-    OneMember,
-  }
 })
 </script>
 <style scoped>
