@@ -48,13 +48,12 @@ export default Vue.extend({
 }
 
 @keyframes slideIn {
-  0% {
-    transform: translateX(180px);
+  from {
+    transform: translateX(100%);
     opacity: 0;
   }
-
-  100% {
-    transform: translateX(0);
+  to {
+    transform: translateX(0%);
     opacity: 1;
   }
 }

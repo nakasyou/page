@@ -24,7 +24,8 @@ export default Vue.extend({
 </script>
 <style scoped>
 .member{
-  width:100px;
+  width:30%;
+  min-width: 200px;
   overflow-wrap: break-word;
 }
 .profile-name{
