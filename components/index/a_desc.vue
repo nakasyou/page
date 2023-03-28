@@ -4,7 +4,7 @@
       <h2>{{ title }}</h2>
     </div>
     <div class="detail">
-      <slot />
+      <slot/>
     </div>
   </div>
 </template>
