@@ -42,9 +42,9 @@ export default Vue.extend({
   }
 })
 </script>
-<style>
+<style scoped>
 .slidein {
-  animation: slideIn 0.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+  animation: slideIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
 }
 
 @keyframes slideIn {
