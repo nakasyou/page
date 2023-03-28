@@ -24,14 +24,12 @@ module.exports = {
       named: "never",
       asyncArrow: "always",
     }],
-    {
-      "vue/html-indent": ["error", 2, {
-        "attribute": 1,
-        "baseIndent": 1,
-        "closeBracket": 0,
-        "alignAttributesVertically": true,
-        "ignores": []
-      }]
-    }
+    "vue/html-indent": ["error", 2, {
+      "attribute": 1,
+      "baseIndent": 1,
+      "closeBracket": 0,
+      "alignAttributesVertically": true,
+      "ignores": []
+     }],
   }
 }
