@@ -7,22 +7,6 @@
     <LiberlunaFooter/>
   </div>
 </template>
-<style>
-.page{
-  width:100%;
-  height:100%;
-  position:relative;
-}
-.hidden{
-  visibility:hidden;
-}
-.liberluna-header-index{
-  position:fixed;
-  z-index: 1;
-  top:0px;
-  left:0px;
-}
-</style>
 <script lang="ts">
 import Vue from 'vue'
 import LiberlunaHeader from '~/components/liberluna_header.vue'
@@ -61,3 +45,19 @@ export default Vue.extend({
   }
 })
 </script>
+<style>
+.page{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.hidden{
+  visibility:hidden;
+}
+.liberluna-header-index{
+  position:fixed;
+  z-index: 1;
+  top:0px;
+  left:0px;
+}
+</style>
