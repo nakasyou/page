@@ -46,6 +46,6 @@ module.exports = {
       endTag: "never",
       selfClosingTag: "never",
     }],
-    "vue/html-quotes": ["double", { avoidEscape: true }],
+    "vue/html-quotes": ["error", "double", { avoidEscape: true }],
   }
 }
