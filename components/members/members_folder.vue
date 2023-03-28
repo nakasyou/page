@@ -1,19 +1,28 @@
 <template>
   <div>
-    <h1>Members</h1>
-    <div>{{ JSON.stringify(membersList) }}</div>
+    <div class="members-list" v-for="members in membersList" :key="members.name">
+      <OneMember :profile="members" />
+    </div>
   </div>
 </template>
 <script>
 import Vue from "vue"
 import membersList from "./members.ts"
-
+import OneMember from "./one_member.vue"
 export default Vue.extend({
   name: "MembersFolder",
   data() {
     return {
-      membersList
+      membersList: membersList(),
     }
+  },
+  components: {
+    OneMember,
   }
 })
 </script>
+<style scoped>
+.members-list{
+  display: flex;
+}
+</style>
