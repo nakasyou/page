@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class='header-main'>
+    <div class="header-main">
       <a href="https://liberluna.github.io/">
         <img src="@/assets/liberluna/liberluna-logo.svg" alt="Liberluna" class="liberluna-logo-link-header"/>
       </a>
