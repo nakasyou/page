@@ -5,7 +5,12 @@
     </div>
   </footer>
 </template>
-<style>
+<script>
+export default {
+  name: "LiberlunaFooter"
+}
+</script>
+<style scoped>
   .footer-main{
     width: 100%;
     height: 50px;
@@ -16,8 +21,3 @@
     left:0px;
   }
 </style>
-<script>
-export default {
-  name: "LiberlunaFooter"
-}
-</script>
