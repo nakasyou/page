@@ -19,7 +19,9 @@
       気になる方は、LINEオープンチャットまでお越しください。歓迎します。
       また、LINEオープンチャットでは、セキュリティやコンピュータに関する雑談もしています。
     </ADesc>
-    <ADesc title="Links"></ADesc>
+    <ADesc title="Links">
+      お待ちください...
+    </ADesc>
   </div>
 </template>
 <script lang="ts">
