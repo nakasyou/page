@@ -33,13 +33,13 @@ module.exports = {
     }],
     "vue/multiline-html-element-content-newline": ["off"],
     "vue/html-self-closing": ["error", {
-      "html": {
-        "void": "never",
-        "normal": "always",
-        "component": "always"
+      html: {
+        void: "never",
+        normal: "always",
+        component: "always"
       },
-      "svg": "always",
-      "math": "always"
+      svg: "always",
+      math: "always"
     }],
   }
 }
