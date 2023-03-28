@@ -8,5 +8,10 @@ import membersList from "./members.ts"
 
 export default Vue.extend({
   name: "MembersFolder",
+  data() {
+    return {
+      membersList
+    }
+  }
 })
 </script>
