@@ -6,10 +6,11 @@ export type Profile = {
   },
   descs: {
     en: string, // 英語(デフォルト)自己紹介、必須
-    ja?: string, // 日本語自己紹介、必須
+    ja: string, // 日本語自己紹介、必須
   },
   posts: Array<string>, // 役職s、 必須。 なければ "[]" 英語
   skills: Array<string>, // スキルs、必須。なければ "[]" 英語が望ましい
+  icon: url, // iconのURL。必須。DATA URIはOK。CORSを考慮すること。
 }
 export type Members = Array<Profile>
 
@@ -25,6 +26,7 @@ const members = () => [
     },
     posts: ["developer"],
     skills: ["C","C++","Python","Kali"],
+    icon: "",
   }
 ]
 

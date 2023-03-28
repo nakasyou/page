@@ -1,10 +1,16 @@
 <template>
   <div class="member">
+    <div>
+      <img src="" :alt="profile.name"/>
+    </div>
     <div class="profile-name">
       {{ profile.name }}
     </div>
     <div>
       {{ profile.skills.join("/") }}
+    </div>
+    <div class="profile-desc">
+      {{ profile.descs.ja }}
     </div>
   </div>
 </template>
@@ -30,5 +36,8 @@ export default Vue.extend({
 }
 .profile-name{
   font-weight: bold;
+}
+.profile-desc{
+  font-size: 0.8em;
 }
 </style>
