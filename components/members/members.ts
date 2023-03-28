@@ -10,7 +10,7 @@ export type Profile = {
   },
   posts: Array<string>, // 役職s、 必須。 なければ "[]" 英語
   skills: Array<string>, // スキルs、必須。なければ "[]" 英語が望ましい
-  icon: url, // iconのURL。必須。DATA URIはOK。CORSを考慮すること。
+  icon: string, // iconのURL。必須。DATA URIはOK。CORSを考慮すること。
 }
 export type Members = Array<Profile>
 
