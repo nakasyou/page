@@ -47,5 +47,10 @@ module.exports = {
       selfClosingTag: "never",
     }],
     "vue/html-quotes": ["error", "double", { avoidEscape: true }],
+    "vue/attributes-order": ["off"],
+    "vue/component-tags-order": ["error", {
+      order: ["template", "script", "style"]
+    }],
+    "vue/order-in-components": ["error"],
   }
 }
