@@ -24,5 +24,6 @@ export default Vue.extend({
 <style scoped>
 .members-list{
   display: flex;
+  justify-content: center;
 }
 </style>

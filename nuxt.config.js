@@ -40,9 +40,18 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'bootstrap-vue/nuxt',
+    '@nuxtjs/sitemap',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    exclude: [
+      '/static/404.html',
+      '/static/500.html',
+    ],
+    hostname: 'https://liberluna.github.io/'
   }
 }
