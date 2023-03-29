@@ -26,7 +26,7 @@ const members = () => [
     },
     posts: ["developer"],
     skills: ["C","C++","Python","Kali"],
-    icon: "",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
   }
 ]
 
