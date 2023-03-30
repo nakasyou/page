@@ -116,9 +116,9 @@ const members = () => [
     ],
   },
   {
-    name: "Kotta",
+    name: "Kouta",
     names: {
-      ja: ""
+      ja: "巧太"
     },
     descs: {
       en: "--",
@@ -126,10 +126,10 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: [],
-    icon: "https://github.com/EdamAme-x.png",
+    icon: "https://github.com/koutamanto.png",
     links: [
       {
-        url: "https://github.com/EdamAme-x",
+        url: "https://github.com/koutamant",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
