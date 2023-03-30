@@ -7,7 +7,7 @@
       {{ profile.name }}
     </div>
     <div>
-      {{ profile.posts.join(",")}}
+      {{ profile.posts.join(",") }}
     </div>
     <div>
       <span class="skills-label">SKILLS:&nbsp;</span><u>{{ profile.skills.join("/") }}</u>
@@ -19,7 +19,7 @@
       <span>Links:</span>
       <span v-for="link in profile.links" :key="JSON.stringify(link)">
         <a :href="link.url">
-          <img :src="link.icon" :alt="link.name" class="link-icon" :title="link.name">
+          <img :src="link.icon" :alt="link.name" class="link-icon" :title="link.name"/>
         </a>
       </span>
     </div>
@@ -28,7 +28,6 @@
 <script lang="ts">
 import Vue, { PropType } from "vue"
 import { type Profile } from "./members"
-
 
 export default Vue.extend({
   name: "OneMember",
