@@ -173,6 +173,11 @@ const members = () => [
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
+      {
+        url: "kisia0012",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
     ],
   },
   {
@@ -192,6 +197,11 @@ const members = () => [
         url: "https://github.com/RangeM-kishiyama",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/rangem_ctf",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
     ],
   },
