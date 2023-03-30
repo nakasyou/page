@@ -175,6 +175,26 @@ const members = () => [
       },
     ],
   },
+  {
+    name: "RangeM-kishiyama",
+    names: {
+      ja: "RangeM-kishiyama"
+    },
+    descs: {
+      en: "--",
+      ja: "--"
+    },
+    posts: ["Developer"],
+    skills: [],
+    icon: "https://github.com/RangeM-kishiyama.png",
+    links: [
+      {
+        url: "https://github.com/RangeM-kishiyama",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
 ]
 
 export default members
