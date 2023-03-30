@@ -32,7 +32,13 @@ const members = () => [
     posts: ["Leader","Developer"],
     skills: ["C","C++","Python","Kali"],
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
-    links: [],
+    links: [
+      {
+        url: "https://github.com/Pochi-Liberluna",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
   },
   {
     name: "Bonds",
@@ -46,7 +52,13 @@ const members = () => [
     posts: ["Developer"],
     skills: ["C","C++","Python","Kali","HTML","CSS","javascript"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/bonds.jpg",
-    links: [],
+    links: [
+      {
+        url: "https://github.com/bond417",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
   },
   {
     name: "nakasyou",
@@ -80,6 +92,46 @@ const members = () => [
         url: "https://matrix.to/#/@nakasyou:matrix.org",
         name: "Element",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/element.svg",
+      },
+    ],
+  },
+  {
+    name: "Ame",
+    names: {
+      ja: "Ame"
+    },
+    descs: {
+      en: "--",
+      ja: "--"
+    },
+    posts: ["Developer"],
+    skills: [],
+    icon: "https://github.com/EdamAme-x.png",
+    links: [
+      {
+        url: "https://github.com/EdamAme-x",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Kotta",
+    names: {
+      ja: ""
+    },
+    descs: {
+      en: "--",
+      ja: "--"
+    },
+    posts: ["Developer"],
+    skills: [],
+    icon: "https://github.com/EdamAme-x.png",
+    links: [
+      {
+        url: "https://github.com/EdamAme-x",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
     ],
   },
