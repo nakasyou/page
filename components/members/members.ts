@@ -155,6 +155,26 @@ const members = () => [
       },
     ],
   },
+  {
+    name: "fumi",
+    names: {
+      ja: "fumi"
+    },
+    descs: {
+      en: "--",
+      ja: "--"
+    },
+    posts: ["Developer"],
+    skills: [],
+    icon: "https://github.com/kisia0916.png",
+    links: [
+      {
+        url: "https://github.com/kisia0916",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
 ]
 
 export default members
