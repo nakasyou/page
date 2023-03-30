@@ -65,7 +65,22 @@ const members = () => [
         url: "https://github.com/nakasyou",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
-      }
+      },
+      {
+        url: "https://twitter.com/nakasyou0",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+      {
+        url: "https://scratch.mit.edu/users/nakasyou1103",
+        name: "Scratch",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/scratch.svg",
+      },
+      {
+        url: "https://matrix.to/#/@nakasyou:matrix.org",
+        name: "Element",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/element.svg",
+      },
     ],
   },
 ]
