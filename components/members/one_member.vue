@@ -15,11 +15,20 @@
     <div class="profile-desc">
       {{ profile.descs.ja }}
     </div>
+    <div class="links">
+      <span>Links:</span>
+      <span v-for="link in profile.links" :key="JSON.stringify(link)">
+        <a :href="link.url">
+          <img :src="link.icon" :alt="link.name" class="link-icon" :title="link.name">
+        </a>
+      </span>
+    </div>
   </div>
 </template>
 <script lang="ts">
 import Vue, { PropType } from "vue"
 import { type Profile } from "./members"
+
 
 export default Vue.extend({
   name: "OneMember",
@@ -28,7 +37,8 @@ export default Vue.extend({
       type: Object as PropType<Profile>,
       required: true,
     }
-  }
+  },
+  methods: {}
 })
 </script>
 <style scoped>
@@ -52,5 +62,9 @@ export default Vue.extend({
 }
 .skills-label{
   font-size: 0.7em;
+}
+.link-icon{
+  width: 1.2em;
+  height: 1.2em;
 }
 </style>
