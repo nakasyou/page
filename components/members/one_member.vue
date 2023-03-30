@@ -7,7 +7,10 @@
       {{ profile.name }}
     </div>
     <div>
-      {{ profile.skills.join("/") }}
+      {{ profile.posts.join(",")}}
+    </div>
+    <div>
+      <span class="skills-label">SKILLS:&nbsp;</span><u>{{ profile.skills.join("/") }}</u>
     </div>
     <div class="profile-desc">
       {{ profile.descs.ja }}
@@ -46,5 +49,8 @@ export default Vue.extend({
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
+}
+.skills-label{
+  font-size: 0.7em;
 }
 </style>

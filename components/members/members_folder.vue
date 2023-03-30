@@ -1,7 +1,9 @@
 <template>
   <div>
-    <div class="members-list" v-for="members in membersList" :key="members.name">
-      <OneMember :profile="members"/>
+    <div class="members-list">
+      <div v-for="members in membersList" :key="members.name">
+        <OneMember :profile="members"/>
+      </div>
     </div>
   </div>
 </template>
