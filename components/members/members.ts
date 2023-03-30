@@ -30,7 +30,7 @@ const members = () => [
       ja: "ぽちです。主犯格してます。このグループの主です。よろです。",
     },
     posts: ["Leader","Developer"],
-    skills: ["C","C++","Python","Kali"],
+    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript"],
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
     links: [
       {
