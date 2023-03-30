@@ -66,7 +66,7 @@ const members = () => [
       ja: "nakasyou"
     },
     descs: {
-      en: "I'm Bonds.Creator of Liberluna. I'm doing a lieutenant. As the name suggests, we value ties. thank you.",
+      en: "I'm nakasyou. A person in the second year of junior high school from April. I'm a 'web person'. I'm a developer.",
       ja: "nakasyou。4月から中二の人。自称Web人です。開発者やってます。よろです。"
     },
     posts: ["Developer"],
