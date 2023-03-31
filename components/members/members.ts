@@ -105,7 +105,7 @@ const members = () => [
       ja: "Ame"
     },
     posts: ["Developer"],
-    skills: ["Python","C#","html","css","JS","PHP","Brainfuck"],
+    skills: ["Python","C#","html","css","JavaScript","PHP","Brainfuck"],
     icon: "https://github.com/EdamAme-x.png",
     links: [
       {
