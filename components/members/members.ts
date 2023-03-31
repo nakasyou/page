@@ -101,11 +101,11 @@ const members = () => [
       ja: "Ame"
     },
     descs: {
-      en: "--",
-      ja: "--"
+      en: "Ame",
+      ja: "Ame"
     },
     posts: ["Developer"],
-    skills: [],
+    skills: ["Python","C#","html","css","JS","php","Brainfuck"],
     icon: "https://github.com/EdamAme-x.png",
     links: [
       {
