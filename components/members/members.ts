@@ -30,7 +30,7 @@ const members = () => [
       ja: "ぽちです。主犯格してます。このグループの主です。よろです。",
     },
     posts: ["Leader","Developer"],
-    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript","VBAVBS(少し)"],
+    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript","VBA&VBS(少し)"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/pochi.png",
     links: [
       {
