@@ -165,7 +165,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["JavaScript","Python","Java","TypeScript","EJS"],
+    skills: ["C","C++","Python","Java","JavaScript","TypeScript","Node.js","EJS"],
     icon: "https://github.com/kisia0916.png",
     links: [
       {
@@ -174,7 +174,7 @@ const members = () => [
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
       {
-        url: "kisia0012",
+        url: "https://twitter.com/kisia0012",
         name: "Twitter",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
@@ -190,7 +190,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["Python","HTML&CSS",],
+    skills: ["Python","Django","Go","C","C#","HTML&CSS","JavaScript","PHP"],
     icon: "https://github.com/RangeM-kishiyama.png",
     links: [
       {
