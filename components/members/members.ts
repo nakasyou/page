@@ -50,7 +50,7 @@ const members = () => [
       ja: "ぼんずです。\"Liberluna\"の名前の考案者です。副官やってます。名前の通り絆を大切にしています。よろしくお願いします。"
     },
     posts: ["Developer"],
-    skills: ["C","C++","Python","Kali","HTML","CSS","javascript"],
+    skills: ["C","C++","Python","Kali","HTML","CSS","JavaScript"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/bonds.jpg",
     links: [
       {
@@ -105,7 +105,7 @@ const members = () => [
       ja: "Ame"
     },
     posts: ["Developer"],
-    skills: ["Python","C#","html","css","JS","php","Brainfuck"],
+    skills: ["Python","C#","html","css","JS","PHP","Brainfuck"],
     icon: "https://github.com/EdamAme-x.png",
     links: [
       {
