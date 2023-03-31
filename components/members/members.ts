@@ -26,11 +26,11 @@ const members = () => [
       ja: "ぽち"
     },
     descs: {
-      en: "I'm Pochi. I'm the main offender. head of this group. nice to meet you.",
+      en: "I'm Pochi. I'm the main offender. Head of this group. Nice to meet you.",
       ja: "ぽちです。主犯格してます。このグループの主です。よろです。",
     },
     posts: ["Leader","Developer"],
-    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript"],
+    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript","VBA/VBS(少し)"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/pochi.png",
     links: [
       {
