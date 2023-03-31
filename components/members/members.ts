@@ -125,7 +125,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: [],
+    skills: ["JavaScript","HTML&CSS","Python","C#"],
     icon: "https://github.com/koutamanto.png",
     links: [
       {
@@ -145,7 +145,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: [],
+    skills: ["Java","HTML"],
     icon: "https://github.com/hiro1234omochi.png",
     links: [
       {
@@ -165,7 +165,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: [],
+    skills: ["JavaScript","Python","Java","TypeScript","EJS"],
     icon: "https://github.com/kisia0916.png",
     links: [
       {
@@ -190,7 +190,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: [],
+    skills: ["Python","HTML&CSS",],
     icon: "https://github.com/RangeM-kishiyama.png",
     links: [
       {
