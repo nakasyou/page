@@ -31,7 +31,7 @@ const members = () => [
     },
     posts: ["Leader","Developer"],
     skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript"],
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+    icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/pochi.png",
     links: [
       {
         url: "https://github.com/Pochi-Liberluna",

@@ -46,6 +46,7 @@ export default Vue.extend({
   min-width: 200px;
   overflow-wrap: break-word;
   text-align: center;
+  margin: auto auto;
 }
 .profile-name{
   font-weight: bold;
