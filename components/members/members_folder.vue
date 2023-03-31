@@ -28,5 +28,6 @@ export default Vue.extend({
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 </style>
