@@ -1,5 +1,5 @@
 <template>
-  <div class="member">
+  <div class="member card">
     <div>
       <img :src="profile.icon" :alt="profile.name" class="member-icon"/>
     </div>
