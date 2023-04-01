@@ -6,10 +6,10 @@
         alt="Liberluna"
         class="liberluna-logo-link-header"/>
     </a>
-    <button id="change-dark">
+    <b-button id="change-dark">
       <img src="@/assets/google-material/dark_mode.svg" id="dark" hidden/>
       <img src="@/assets/google-material/light_mode.svg" id="light" hidden/>
-    </button>
+    </b-button>
   </header>
 </template>
 <script>
@@ -22,6 +22,6 @@ export default {
   background-color: #ddd;
 }
 .liberluna-logo-link-header{
-  height: 20px;
+  height: 30px;
 }
 </style>
