@@ -42,11 +42,15 @@ export default Vue.extend({
 </script>
 <style scoped>
 .member{
-  width:30%;
-  min-width: 200px;
+  width:calc(33vw - 50px);
   overflow-wrap: break-word;
   text-align: center;
-  margin: auto auto;
+  padding: 0;
+}
+@media (max-width: 50rem) {
+  .member{
+    width:calc(50%-10px);
+  }
 }
 .profile-name{
   font-weight: bold;

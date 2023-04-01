@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="members-list row row-cols-1 row-cols-md-3 g-4">
+  <div class="members-list-root">
+    <div class="members-list row row-cols-2 row-cols-md-3">
       <div v-for="members in membersList" :key="members.name" class="col">
         <OneMember :profile="members"/>
       </div>
@@ -29,5 +29,14 @@ export default Vue.extend({
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-evenly;
+}
+.members-list-root{
+  width:100%;
+  height: 100%;
+}
+</style>
+<style>
+#__nuxt{
+  overflow-x: hidden;
 }
 </style>
