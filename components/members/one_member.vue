@@ -45,7 +45,8 @@ export default Vue.extend({
   width:calc(33vw - 50px);
   overflow-wrap: break-word;
   text-align: center;
-  padding: 0;
+  margin:auto;
+  margin-bottom: 1em;
 }
 @media (max-width: 50rem) {
   .member{
