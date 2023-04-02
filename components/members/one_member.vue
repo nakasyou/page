@@ -50,7 +50,7 @@ export default Vue.extend({
 }
 @media (max-width: 50rem) {
   .member{
-    width:calc(50%-10px);
+    width:calc(50% - 5px);
   }
 }
 .profile-name{
