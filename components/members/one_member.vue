@@ -42,16 +42,10 @@ export default Vue.extend({
 </script>
 <style scoped>
 .member{
-  width:calc(33vw - 50px);
   overflow-wrap: break-word;
   text-align: center;
   margin:auto;
   margin-bottom: 1em;
-}
-@media (max-width: 767px) {
-  .member{
-    width:calc(50% - 5px);
-  }
 }
 .profile-name{
   font-weight: bold;
