@@ -20,6 +20,7 @@ export default {
 <style scoped>
 .header-root{
   background-color: #ddd;
+  width: 100vw;
 }
 .liberluna-logo-link-header{
   height: 30px;
