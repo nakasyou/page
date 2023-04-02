@@ -48,7 +48,7 @@ export default Vue.extend({
   margin:auto;
   margin-bottom: 1em;
 }
-@media (max-width: 50rem) {
+@media (max-width: 767px) {
   .member{
     width:calc(50% - 5px);
   }
