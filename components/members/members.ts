@@ -210,6 +210,66 @@ const members = () => [
       },
     ],
   },
+  {
+    name: "Kuroko",
+    names: {
+      ja: "黒子"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["Python","Dart","HTML&CSS","JavaScript","bash","GAS"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/Futaba411",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Hashishi",
+    names: {
+      ja: "はしし"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["不明"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/ipshtkleegetolb73",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Def4Root/sou",
+    names: {
+      ja: "奏"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: [""],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/Def4Root",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
 ]
 
 export default members
