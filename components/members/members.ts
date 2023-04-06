@@ -241,7 +241,7 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: ["不明"],
-    icon: "",
+    icon: "https://github.com/ipshtkleegetolb73.png",
     links: [
       {
         url: "https://github.com/ipshtkleegetolb73",
@@ -261,7 +261,7 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: [""],
-    icon: "",
+    icon: "https://github.com/Def4Root.png",
     links: [
       {
         url: "https://github.com/Def4Root",
@@ -341,7 +341,7 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: ["Python","Ruby","(書ける奴)","Parrot OS","C","Assembly","C#","SQL","Node.js","Flask","(勉強中)"],
-    icon: "",
+    icon: "https://github.com/endermite0314.png",
     links: [
       {
         url: "https://github.com/endermite0314",
@@ -361,7 +361,7 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: ["HTML&CSS","JavaScript","Python","PHP","MySQL","Swift","C","C#","Ruby","(C,C#,Rubyは勉強中)"],
-    icon: "",
+    icon: "https://github.com/mama1928.png",
     links: [
       {
         url: "https://github.com/mama1928",
