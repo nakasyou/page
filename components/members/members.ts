@@ -351,7 +351,7 @@ const members = () => [
       ja: "MD5"
     },
     descs: {
-      en: "",
+      en: "I enjoy dynamic analysis of malware (including jokes) and developing web applications. I can at least rewrite MBR in assembly.",
       ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。アセンブリでMBRの書き換えくらいはできます。"
     },
     posts: ["Developer"],
