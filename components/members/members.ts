@@ -158,6 +158,11 @@ const members = () => [
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
+     {
+        url: "https://twitter.com/hiro_omochi1234",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
     ],
   },
   {
@@ -268,6 +273,11 @@ const members = () => [
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
+      {
+        url: "https://twitter.com/def4root",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
     ],
   },
   {
@@ -308,6 +318,11 @@ const members = () => [
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
+      {
+        url: "https://twitter.com/vje_",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
     ],
   },
   {
@@ -347,6 +362,11 @@ const members = () => [
         url: "https://github.com/endermite0314",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/lockeddoor0314",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
     ],
   },
