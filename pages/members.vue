@@ -1,4 +1,5 @@
 <template>
+<meta name="description" content="Members of Liberluna!">
   <div class="member-root">
     <LiberlunaHeader/>
     <h1>Members</h1>
