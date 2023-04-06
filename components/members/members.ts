@@ -337,10 +337,10 @@ const members = () => [
     },
     descs: {
       en: "",
-      ja: ""
+      ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。アセンブリでMBRの書き換えくらいはできます。"
     },
     posts: ["Developer"],
-    skills: ["Python","Ruby","(書ける奴)","C","Assembly","C#","SQL","Node.js","(勉強中)"],
+    skills: ["Python","Ruby","(書ける奴)","Parrot OS","C","Assembly","C#","SQL","Node.js","Flask","(勉強中)"],
     icon: "",
     links: [
       {
