@@ -79,7 +79,7 @@ const members = () => [
       en: "I'm nakasyou. A person in the second year of junior high school from April. I'm a 'web person'. I'm a developer.",
       ja: "nakasyou。4月から中二の人。自称Web人です。開発者やってます。よろです。"
     },
-    posts: ["Developer"],
+    posts: ["SubLeader","Developer"],
     skills: ["Deno", "HTML&CSS", "JavaScript", "Node.js", "Python", "TypeScript", "Shell"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/nakasyou.png",
     links: [
