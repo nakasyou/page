@@ -63,6 +63,11 @@ const members = () => [
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
       },
+      {
+        url: "https://twitter.com/Bonds_Hacker",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
     ],
   },
   {
