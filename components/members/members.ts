@@ -270,6 +270,106 @@ const members = () => [
       },
     ],
   },
+  {
+    name: "sum1t",
+    names: {
+      ja: "サミット"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["Assembly,","C","C++","Java"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Skylark",
+    names: {
+      ja: "スカイラーク"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["JavaScript","TypeScript","PHP","Python","lua"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/Mambo-q",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Suteki",
+    names: {
+      ja: "素敵"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["Python","PHP","HTML&CSS","JavaScript","SQL(MySQL,SQLite)"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "MD5",
+    names: {
+      ja: "MD5"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["Python","Ruby","(書ける奴)","C","Assembly","C#","SQL","Node.js","(勉強中)"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/endermite0314",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "DDoSer",
+    names: {
+      ja: ""
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["HTML&CSS","JavaScript","Python","PHP","MySQL","Swift","C","C#","Ruby","(C,C#,Rubyは勉強中)"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/mama1928",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
 ]
 
 export default members
