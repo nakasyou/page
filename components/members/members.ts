@@ -270,7 +270,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer", "Desiginer"],
-    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "Aviutl", "Blender"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "AviUtl", "Blender"],
     icon: "https://github.com/Def4Root.png",
     links: [
       {
