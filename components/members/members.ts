@@ -316,7 +316,7 @@ const members = () => [
     },
     posts: ["Developer"],
     skills: ["JavaScript","TypeScript","PHP","Python","lua"],
-    icon: "",
+    icon: "https://github.com/Mambo-q.png",
     links: [
       {
         url: "https://github.com/Mambo-q",
