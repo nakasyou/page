@@ -381,7 +381,7 @@ const members = () => [
       ja: ""
     },
     descs: {
-      en: "You can at least rewrite the MBR in assembly.",
+      en: "I can at least rewrite the MBR in assembly.",
       ja: "アセンブリでMBRの書き換えくらいはできます。"
     },
     posts: ["Developer"],
