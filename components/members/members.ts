@@ -356,8 +356,8 @@ const members = () => [
       ja: "MD5"
     },
     descs: {
-      en: "I enjoy dynamic analysis of malware (including jokes) and developing web applications. I can at least rewrite MBR in assembly.",
-      ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。アセンブリでMBRの書き換えくらいはできます。"
+      en: "I enjoy dynamic analysis of malware (including jokes) and developing web applications.",
+      ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。"
     },
     posts: ["Developer"],
     skills: ["Python","Ruby","(書ける奴)","Parrot OS","C","Assembly","C#","SQL","Node.js","Flask","(勉強中)"],
@@ -381,8 +381,8 @@ const members = () => [
       ja: ""
     },
     descs: {
-      en: "",
-      ja: ""
+      en: "You can at least rewrite the MBR in assembly.",
+      ja: "アセンブリでMBRの書き換えくらいはできます。"
     },
     posts: ["Developer"],
     skills: ["HTML&CSS","JavaScript","Python","PHP","MySQL","Swift","C","C#","Ruby","(C,C#,Rubyは勉強中)"],
