@@ -30,7 +30,7 @@ const members = () => [
       ja: "ぽちです。主犯格してます。このグループの主です。よろです。",
     },
     posts: ["Leader","Developer"],
-    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript","VBA&VBS(少し)"],
+    skills: ["C", "C++", "HTML&CSS", "JavaScript","Python", "VBA&VBS(少し)", "KaliLinux"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/pochi.png",
     links: [
       {
@@ -55,7 +55,7 @@ const members = () => [
       ja: "ぼんずです。\"Liberluna\"の名前の考案者です。副官やってます。名前の通り絆を大切にしています。よろしくお願いします。"
     },
     posts: ["Developer"],
-    skills: ["C","C++","Python","Kali","HTML","CSS","JavaScript"],
+    skills: ["C", "C++", "HTML&CSS", "JavaScript", "Python", "KaliLinux"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/bonds.jpg",
     links: [
       {
@@ -80,7 +80,7 @@ const members = () => [
       ja: "nakasyou。4月から中二の人。自称Web人です。開発者やってます。よろです。"
     },
     posts: ["Developer"],
-    skills: ["TypeScript","JavaScript","Python","Deno","Node.js","HTML&CSS","Shell"],
+    skills: ["Deno", "HTML&CSS", "JavaScript", "Node.js", "Python", "TypeScript", "Shell"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/nakasyou.png",
     links: [
       {
@@ -115,7 +115,7 @@ const members = () => [
       ja: "Ame"
     },
     posts: ["Developer"],
-    skills: ["Python","C#","HTML&CSS","JavaScript","PHP","R","Brainfuck"],
+    skills: ["Brainfuck", "C#", "HTML&CSS", "JavaScript", "PHP", "Python", "R"],
     icon: "https://github.com/EdamAme-x.png",
     links: [
       {
@@ -135,7 +135,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["JavaScript","HTML&CSS","Python","C#"],
+    skills: ["C#", "HTML&CSS", "JavaScript", "Python"],
     icon: "https://github.com/koutamanto.png",
     links: [
       {
@@ -155,7 +155,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["Java","HTML"],
+    skills: ["HTML", "Java"],
     icon: "https://github.com/hiro1234omochi.png",
     links: [
       {
@@ -180,7 +180,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["C","C++","Python","Java","JavaScript","TypeScript","Node.js","EJS"],
+    skills: ["C", "C++", "EJS", "Java", "JavaScript", "Node.js", "Python", "TypeScript"],
     icon: "https://github.com/kisia0916.png",
     links: [
       {
@@ -205,7 +205,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["Python","Django","Go","C","C#","HTML&CSS","JavaScript","PHP"],
+    skills: ["C", "C#", "Django", "Go", "HTML&CSS", "JavaScript", "PHP", "Python"],
     icon: "https://github.com/RangeM-kishiyama.png",
     links: [
       {
@@ -230,7 +230,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer"],
-    skills: ["Python","Dart","HTML&CSS","JavaScript","bash","GAS"],
+    skills: ["Dart", "GAS", "HTML&CSS", "JavaScript", "Python", "bash"],
     icon: "",
     links: [
       {
@@ -261,16 +261,16 @@ const members = () => [
     ],
   },
   {
-    name: "Def4Root/sou",
+    name: "Def4Root",
     names: {
-      ja: "奏"
+      ja: "Def4Root"
     },
     descs: {
       en: "",
       ja: ""
     },
-    posts: ["Developer"],
-    skills: [""],
+    posts: ["Developer", "Desiginer"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "/", "Aviutl", "Blender"],
     icon: "https://github.com/Def4Root.png",
     links: [
       {
@@ -295,7 +295,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer"],
-    skills: ["Assembly,","C","C++","Java"],
+    skills: ["Assembly", "C", "C++", "Java"],
     icon: "",
     links: [
       {
@@ -315,7 +315,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer"],
-    skills: ["JavaScript","TypeScript","PHP","Python","lua"],
+    skills: ["JavaScript", "Python", "TypeScript", "PHP", "lua"],
     icon: "https://github.com/Mambo-q.png",
     links: [
       {
@@ -340,7 +340,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer"],
-    skills: ["Python","PHP","HTML&CSS","JavaScript","SQL(MySQL,SQLite)"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL,SQLite)"],
     icon: "",
     links: [
       {
@@ -360,7 +360,7 @@ const members = () => [
       ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。"
     },
     posts: ["Developer"],
-    skills: ["Python","Ruby","(書ける奴)","Parrot OS","C","Assembly","C#","SQL","Node.js","Flask","(勉強中)"],
+    skills: ["Python", "Ruby", "(書ける奴)", "Parrot OS", "Assembly", "C", "C#", "SQL", "Node.js", "Flask", "(勉強中)"],
     icon: "https://github.com/endermite0314.png",
     links: [
       {
@@ -385,7 +385,7 @@ const members = () => [
       ja: "アセンブリでMBRの書き換えくらいはできます。"
     },
     posts: ["Developer"],
-    skills: ["HTML&CSS","JavaScript","Python","PHP","MySQL","Swift","C","C#","Ruby","(C,C#,Rubyは勉強中)"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "Swift", "C", "C#", "Ruby", "(C,C#,Rubyは勉強中)"],
     icon: "https://github.com/mama1928.png",
     links: [
       {
