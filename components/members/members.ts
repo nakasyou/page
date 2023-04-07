@@ -45,6 +45,31 @@ const members = () => [
       },
     ],
   },
+   {
+    name: "sosu",
+    names: {
+      ja: "素数"
+    },
+    descs: {
+      en: "",
+      ja: "",
+    },
+    posts: ["Manager","Developer"],
+    skills: ["C", "PHP"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+    ],
+  },
   {
     name: "Bonds",
     names: {
