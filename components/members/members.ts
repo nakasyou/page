@@ -79,7 +79,7 @@ const members = () => [
       en: "I'm Bonds.Creator of Liberluna. I'm doing a lieutenant. As the name suggests, we value ties. thank you.",
       ja: "ぼんずです。\"Liberluna\"の名前の考案者です。副官やってます。名前の通り絆を大切にしています。よろしくお願いします。"
     },
-    posts: ["Developer"],
+    posts: ["SubLeader","Developer"],
     skills: ["C", "C++", "HTML&CSS", "JavaScript", "Python", "KaliLinux"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/bonds.jpg",
     links: [
