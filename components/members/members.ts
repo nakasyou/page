@@ -384,7 +384,7 @@ const members = () => [
       en: "I enjoy dynamic analysis of malware (including jokes) and developing web applications.",
       ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。"
     },
-    posts: ["Developer"],
+    posts: ["Developer","MalwareResearcher"],
     skills: ["Python", "Ruby", "(書ける奴)", "Parrot OS", "Assembly", "C", "C#", "SQL", "Node.js", "Flask", "(勉強中)"],
     icon: "https://github.com/endermite0314.png",
     links: [
@@ -409,7 +409,7 @@ const members = () => [
       en: "I can at least rewrite the MBR in assembly.",
       ja: "アセンブリでMBRの書き換えくらいはできます。"
     },
-    posts: ["Developer"],
+    posts: ["Developer"."MalwareResearcher"],
     skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "Swift", "C", "C#", "Ruby", "(C,C#,Rubyは勉強中)"],
     icon: "https://github.com/mama1928.png",
     links: [
