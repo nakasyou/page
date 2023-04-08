@@ -316,11 +316,11 @@ const members = () => [
       ja: "サミット"
     },
     descs: {
-      en: "",
-      ja: ""
+      en: "If you can, please give me a Hi-Mecha Holder h5005, Hi-Uni 5-5050, Mechanica MEC, a FlashPaPa CD and a Solid State Survivor record.",
+      ja: "できることなら僕に、ハイメカホルダーh5005,ハイユニ5-5050,メカニカMECと、FlashPaPaのCDとソリッドステイトサヴァイヴァーのレコードをお恵みください。"
     },
     posts: ["Developer"],
-    skills: ["Assembly", "C", "C++", "Java"],
+    skills: ["Java","Python"],
     icon: "",
     links: [
       {
