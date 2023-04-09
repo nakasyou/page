@@ -45,7 +45,7 @@ const members = () => [
       },
     ],
   },
-   {
+  {
     name: "sosu",
     names: {
       ja: "素数"
