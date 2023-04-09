@@ -180,7 +180,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["HTML", "Java"],
+    skills: ["HTML", "Java","Python"],
     icon: "https://github.com/hiro1234omochi.png",
     links: [
       {
