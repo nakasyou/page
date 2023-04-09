@@ -409,7 +409,7 @@ const members = () => [
       en: "I can at least rewrite the MBR in assembly.",
       ja: "アセンブリでMBRの書き換えくらいはできます。"
     },
-    posts: ["Developer"."MalwareResearcher"],
+    posts: ["Developer","MalwareResearcher"],
     skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "Swift", "C", "C#", "Ruby", "(C,C#,Rubyは勉強中)"],
     icon: "https://github.com/mama1928.png",
     links: [
