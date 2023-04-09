@@ -340,7 +340,7 @@ const members = () => [
       ja: ""
     },
     posts: ["Developer"],
-    skills: ["JavaScript","lua", "PHP",  "Python", "TypeScript"],
+    skills: ["JavaScript","lua", "PHP", "Python", "TypeScript"],
     icon: "https://github.com/Mambo-q.png",
     links: [
       {
