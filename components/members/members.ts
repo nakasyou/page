@@ -151,7 +151,7 @@ const members = () => [
     ],
   },
   {
-    name: "Kouta",
+    name: "Kouta(除名中)",
     names: {
       ja: "巧太"
     },
