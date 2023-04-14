@@ -30,7 +30,7 @@ const members = () => [
       ja: "ぽちです。主犯格してます。このグループの主です。よろです。",
     },
     posts: ["Leader","Developer"],
-    skills: ["C","C++","Python","Kali","HTML&CSS","JavaScript","VBA&VBS(少し)"],
+    skills: ["C", "C++", "HTML&CSS", "JavaScript","Python", "VBA&VBS(少し)", "KaliLinux"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/pochi.png",
     links: [
       {
@@ -46,6 +46,31 @@ const members = () => [
     ],
   },
   {
+    name: "sosu",
+    names: {
+      ja: "素数"
+    },
+    descs: {
+      en: "",
+      ja: "",
+    },
+    posts: ["Manager","Developer"],
+    skills: ["C", "PHP"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+    ],
+  },
+  {
     name: "Bonds",
     names: {
       ja: "ぼんず"
@@ -54,14 +79,19 @@ const members = () => [
       en: "I'm Bonds.Creator of Liberluna. I'm doing a lieutenant. As the name suggests, we value ties. thank you.",
       ja: "ぼんずです。\"Liberluna\"の名前の考案者です。副官やってます。名前の通り絆を大切にしています。よろしくお願いします。"
     },
-    posts: ["Developer"],
-    skills: ["C","C++","Python","Kali","HTML","CSS","JavaScript"],
+    posts: ["SubLeader","Developer"],
+    skills: ["C", "C++", "HTML&CSS", "JavaScript", "Python", "KaliLinux"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/bonds.jpg",
     links: [
       {
         url: "https://github.com/bond417",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/Bonds_Hacker",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
     ],
   },
@@ -74,8 +104,8 @@ const members = () => [
       en: "I'm nakasyou. A person in the second year of junior high school from April. I'm a 'web person'. I'm a developer.",
       ja: "nakasyou。4月から中二の人。自称Web人です。開発者やってます。よろです。"
     },
-    posts: ["Developer"],
-    skills: ["TypeScript","JavaScript","Python","Deno","Node.js","HTML&CSS","Shell"],
+    posts: ["SubLeader","Developer"],
+    skills: ["Deno", "HTML&CSS", "JavaScript", "Node.js", "Python", "TypeScript", "Shell"],
     icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/nakasyou.png",
     links: [
       {
@@ -110,7 +140,7 @@ const members = () => [
       ja: "Ame"
     },
     posts: ["Developer"],
-    skills: ["Python","C#","html","css","JavaScript","PHP","Brainfuck"],
+    skills: ["Brainfuck", "C#", "HTML&CSS", "JavaScript", "PHP", "Python", "R"],
     icon: "https://github.com/EdamAme-x.png",
     links: [
       {
@@ -130,7 +160,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["JavaScript","HTML&CSS","Python","C#"],
+    skills: ["C#", "HTML&CSS", "JavaScript", "Python"],
     icon: "https://github.com/koutamanto.png",
     links: [
       {
@@ -150,13 +180,18 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["Java","HTML"],
+    skills: ["HTML", "Java","Python"],
     icon: "https://github.com/hiro1234omochi.png",
     links: [
       {
         url: "https://github.com/hiro1234omochi",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/hiro_omochi1234",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
     ],
   },
@@ -170,7 +205,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["C","C++","Python","Java","JavaScript","TypeScript","Node.js","EJS"],
+    skills: ["C", "C++", "EJS", "Java", "JavaScript", "Node.js", "Python", "TypeScript"],
     icon: "https://github.com/kisia0916.png",
     links: [
       {
@@ -195,7 +230,7 @@ const members = () => [
       ja: "--"
     },
     posts: ["Developer"],
-    skills: ["Python","Django","Go","C","C#","HTML&CSS","JavaScript","PHP"],
+    skills: ["C", "C#", "Django", "Go", "HTML&CSS", "JavaScript", "PHP", "Python"],
     icon: "https://github.com/RangeM-kishiyama.png",
     links: [
       {
@@ -211,19 +246,194 @@ const members = () => [
     ],
   },
   {
+    name: "Kuroko",
+    names: {
+      ja: "黒子"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["Dart", "GAS", "HTML&CSS", "JavaScript", "Python", "bash"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/Futaba411",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Hashishi",
+    names: {
+      ja: "はしし"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["不明"],
+    icon: "https://github.com/ipshtkleegetolb73.png",
+    links: [
+      {
+        url: "https://github.com/ipshtkleegetolb73",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Def4Root",
+    names: {
+      ja: "Def4Root"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer", "Desiginer"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL)", "AviUtl", "Blender"],
+    icon: "https://github.com/Def4Root.png",
+    links: [
+      {
+        url: "https://github.com/Def4Root",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/def4root",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+    ],
+  },
+  {
+    name: "sum1t",
+    names: {
+      ja: "サミット"
+    },
+    descs: {
+      en: "If you can, please give me a Hi-Mecha Holder h5005, Hi-Uni 5-5050, Mechanica MEC, a FlashPaPa CD and a Solid State Survivor record.",
+      ja: "できることなら僕に、ハイメカホルダーh5005,ハイユニ5-5050,メカニカMECと、FlashPaPaのCDとソリッドステイトサヴァイヴァーのレコードをお恵みください。"
+    },
+    posts: ["Developer"],
+    skills: ["Java","Python"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "Skylark",
+    names: {
+      ja: "スカイラーク"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["JavaScript","lua", "PHP", "Python", "TypeScript"],
+    icon: "https://github.com/Mambo-q.png",
+    links: [
+      {
+        url: "https://github.com/Mambo-q",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/vje_",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+    ],
+  },
+  {
+    name: "Suteki",
+    names: {
+      ja: "素敵"
+    },
+    descs: {
+      en: "",
+      ja: ""
+    },
+    posts: ["Developer"],
+    skills: ["HTML&CSS", "JavaScript", "PHP", "Python", "SQL(MySQL,SQLite)"],
+    icon: "",
+    links: [
+      {
+        url: "https://github.com/",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
+    name: "MD5",
+    names: {
+      ja: "MD5"
+    },
+    descs: {
+      en: "I enjoy dynamic analysis of malware (including jokes) and developing web applications.",
+      ja: "マルウェア(ジョーク含む)の動的解析や、Webアプリケーションの開発が趣味です。"
+    },
+    posts: ["Developer","MalwareResearcher"],
+    skills: ["Python", "Ruby", "(書ける奴)", "Parrot OS", "Assembly", "C", "C#", "SQL", "Node.js", "Flask", "(勉強中)"],
+    icon: "https://github.com/endermite0314.png",
+    links: [
+      {
+        url: "https://github.com/endermite0314",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/lockeddoor0314",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
+      },
+    ],
+  },
+  {
+    name: "DDoSer",
+    names: {
+      ja: ""
+    },
+    descs: {
+      en: "I can at least rewrite the MBR in assembly.",
+      ja: "アセンブリでMBRの書き換えくらいはできます。"
+    },
+    posts: ["Developer","MalwareResearcher"],
+    skills: ["HTML&CSS", "JavaScript","PHP","Python","SQL(MySQL)", "Swift", "C", "C#", "Ruby", "(C,C#,Rubyは勉強中)"],
+    icon: "https://github.com/mama1928.png",
+    links: [
+      {
+        url: "https://github.com/mama1928",
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+    ],
+  },
+  {
     name: "movenap",
     names: {
       ja: "movenap"
     },
     descs: {
-      en: "--",
+      en: "---",
       ja: "いつも元気な11月3日生まれ。ってのは建前で(ﾟ∀ﾟ)ｱﾋｬがただただ好きな変人です！"
     },
     posts: ["Developer"],
-    skills: ["クラッカー乗っ取り", "クラッカーの個人情報晒し"],
-    icon: "https://github.com/RangeM-kishiyama.png",
+    skills: ["クラッカー乗っ取り","クラッカーの個人情報晒し"],
+    icon: "https://raw.githubusercontent.com/Liberluna/page/main/assets/member-icons/movenap.png",
     links: [
-    
+
     ],
   },
 ]
