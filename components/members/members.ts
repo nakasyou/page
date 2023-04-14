@@ -210,6 +210,22 @@ const members = () => [
       },
     ],
   },
+  {
+    name: "movenap",
+    names: {
+      ja: "movenap"
+    },
+    descs: {
+      en: "--",
+      ja: "いつも元気な11月3日生まれ。ってのは建前で(ﾟ∀ﾟ)ｱﾋｬがただただ好きな変人です！"
+    },
+    posts: ["Developer"],
+    skills: ["クラッカー乗っ取り", "クラッカーの個人情報晒し"],
+    icon: "https://github.com/RangeM-kishiyama.png",
+    links: [
+    
+    ],
+  },
 ]
 
 export default members
