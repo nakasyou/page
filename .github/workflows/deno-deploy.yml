@@ -64,4 +64,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: liberluna # the name of the project on Deno Deploy
-          entrypoint: deno-serve.ts # the entrypoint to deploy
+          entrypoint: deno-server.js # the entrypoint to deploy
