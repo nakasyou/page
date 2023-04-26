@@ -11,11 +11,28 @@ jobs:
       contents: read
 
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
       - name: Checkout
         uses: actions/checkout@v3
-
+      # Node.js setup
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            dist
+            .nuxt
+            node_modukes
+          key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
+          restore-keys: |
+            ${{ runner.os }}-nuxt-build-
+      - name: Install deps
+        run: npm i
+      - name: Nuxt build
+        run: npm run generate
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
