@@ -1,5 +1,8 @@
 <template>
   <div class="page">
+    <script>
+      alert("Liberluna.github.io に移転しました");
+    </script>
     <LiberlunaHeader :class="{'hidden':scrollY<10}" class="liberluna-header-index"/>
     <MainTitle/>
     <div id="main-title-end"/>
