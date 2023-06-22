@@ -54,8 +54,8 @@ export default Vue.extend({
   font-size: 0.8em;
 }
 .member-icon{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
 }
