@@ -136,8 +136,8 @@ const members = () => [
       ja: "Ame"
     },
     descs: {
-      en: "Ame",
-      ja: "Ame"
+      en: "Vulnerability hunters and the like.",
+      ja: "Vulnerability hunters and the like."
     },
     posts: ["Developer"],
     skills: ["Brainfuck", "C#", "HTML&CSS", "JavaScript", "PHP", "Python", "R"],
@@ -147,6 +147,11 @@ const members = () => [
         url: "https://github.com/EdamAme-x",
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/github.svg",
+      },
+      {
+        url: "https://twitter.com/macl2189",
+        name: "Twitter",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@8.8.0/icons/twitter.svg",
       },
     ],
   },
